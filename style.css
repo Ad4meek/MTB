@@ -24,20 +24,12 @@ body {
   backdrop-filter: blur(2px);
 }
 
-.hp-kategorie,
-.hp-bikeparky,
-.hp-zavody,
-.hp-vybaveni,
-.hp-komponety {
-  background-color: #f8f8f8;
-}
-
 /* Navbar */
 
 .hp-navbar {
   background: none;
   box-shadow: none;
-  opacity: 0.6;
+  opacity: 0.7;
   transition: 0.2s;
 }
 
@@ -49,11 +41,11 @@ body {
 header {
   background: #0086e6;
   color: #fff;
-  height: 10vh;
+  height: 100px;
   box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.3);
 }
 
-.navbar {  
+.navbar {
   margin: 0 auto;
   height: 100%;
   font-size: 20px;
@@ -73,7 +65,7 @@ nav li a:hover {
 
 nav li a {
   color: #fff;
-  padding: 0 15px ;
+  padding: 0 15px;
 }
 
 /* Basic */
@@ -120,7 +112,7 @@ li {
 
 img {
   width: 100%;
-  height: 100%; 
+  height: 100%;
 }
 
 .container {
@@ -141,12 +133,12 @@ img {
 
 .scroll-down {
   position: absolute;
-  left: 50%; 
+  left: 50%;
   transform: translateX(-50%);
   cursor: pointer;
 }
 
-.home-container{
+.home-container {
   height: 90vh;
 }
 
@@ -184,7 +176,7 @@ img {
   cursor: pointer;
   background: #0f76bb;
   color: #fff;
-  border-radius: 5px; 
+  border-radius: 5px;
 }
 
 .btn:hover {
@@ -194,17 +186,17 @@ img {
 
 /* Grid */
 
-.kategorie {
+.grid {
   display: grid;
-  grid-template-columns:repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .text,
 .fotka {
   background: #fff;
-  border-radius: 2px; 
+  border-radius: 2px;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
-  max-height: min-content; 
+  max-height: min-content;
   margin: 1rem;
 }
 
@@ -244,21 +236,23 @@ iframe {
   border-radius: 3px;
   height: 300px;
   width: 300px;
+  padding: 10px;
+  object-fit: contain;
+  object-position: center;
 }
 
 .vybaveni img:hover {
   transform: scale(0.99);
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.13);
-} 
+}
 
 .vybaveni li {
-  padding: 1rem;
+  margin: 1rem;
 }
 
 .vybaveni ul {
   display: flex;
   flex-wrap: wrap;
-  margin: auto;
   justify-content: center;
 }
 
@@ -269,9 +263,12 @@ iframe {
   border-radius: 3px;
   height: 300px;
   width: 300px;
+  padding: 10px;
+  object-fit: contain;
+  object-position: center;
 }
 
- .komponenty-h3 {
+.komponenty-h3 {
   border-bottom: 1px solid #26363e;
   margin: 0 auto;
   padding-top: 30px;
@@ -291,7 +288,7 @@ iframe {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-} 
+}
 
 /* Footer */
 
@@ -333,7 +330,6 @@ footer {
 /* Responsiveness */
 
 @media (max-width: 992px) {
-
   .kategorie {
     grid-template-columns: 1fr;
   }
@@ -356,7 +352,7 @@ footer {
   }
 
   header {
-    height: 25vh;
+    height: 200px;
   }
 
   h1 {
@@ -364,8 +360,7 @@ footer {
     text-shadow: 0 0 100px #2596be, 0 0 3px #f8f8f8;
   }
 
-  .home-container{
-    height: 75vh;
+  h2 {
+    font-size: 400%;
   }
-
 }
