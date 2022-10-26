@@ -123,7 +123,7 @@ img {
   margin: 0 auto;
   cursor: pointer;
   position: absolute;
-  bottom: 20px;
+  bottom: 5%;
   right: 50%;
   transform: translateX(50%);
 }
@@ -149,7 +149,7 @@ img {
   padding: 10px;
   font-size: 120%;
   font-weight: bold;
-  color: #c9c9c9;
+  color: #fff;
 }
 
 .segment-container {
@@ -353,5 +353,11 @@ footer {
 
   h2 {
     font-size: 400%;
+  }
+}
+
+@media (max-width: 576px) {
+  .segment-container {
+    width: 100%;
   }
 }
