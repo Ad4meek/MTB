@@ -204,6 +204,10 @@ iframe {
   border-bottom: 2px solid #26363e;
 }
 
+.end {
+  border: none;
+}
+
 .vybaveni-h3 {
   color: #26363e;
   font-size: 150%;
@@ -284,7 +288,7 @@ footer {
   display: flex;
 }
 
-.footer div {
+.footer ul a {
   opacity: 0.5;
 }
 
@@ -292,11 +296,11 @@ footer {
   color: #fff;
   opacity: 70%;
   padding: 10px;
+  transition: 0.3s;
 }
 
 .footer li a:hover {
   opacity: 100%;
-  transition: 0.2s;
 }
 
 /* Responsiveness */
@@ -333,7 +337,7 @@ footer {
   }
 
   h2 {
-    font-size: 400%;
+    font-size: 350%;
   }
 }
 
