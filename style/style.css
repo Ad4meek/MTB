@@ -168,15 +168,38 @@ img {
 }
 
 .background {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../img/kategorie_background2.jpg) no-repeat center center;
-  background-size: cover;
   height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
+.kategorie_background {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/kategorie_background.png) no-repeat center center;
+  background-size: cover;
+}
+
+.traily_background {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/traily_background.png) no-repeat center center;
+  background-size: cover;
+}
+.zavody_background {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/zavody_background.png) no-repeat center center;
+  background-size: cover;
+}
+.vybaveni_background {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/vybaveni_background.png) no-repeat center center;
+  background-size: cover;
+}
+.komponenty_background {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/komponenty_background.png) no-repeat center center;
+  background-size: cover;
+}
 .background p {
   text-align: center;
   color: #fff;
