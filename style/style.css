@@ -4,7 +4,6 @@
 
 :root {
   --blue: #1f73af;
-  --light-blue: #0086e6;
   --cyan: #2596be;
   --dark-grey: #26363e;
   --light-grey: #f8f8f8;
@@ -33,7 +32,7 @@ body.overflow {
 
 .hp-index {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(../img/enduro.png) no-repeat center center;
+    url(../img/homepage.png) no-repeat center center;
   background-size: cover;
   backdrop-filter: blur(2px);
 }
@@ -235,6 +234,11 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  transition: all 0.3s ease-in-out;
+}
+
+.segment-container:hover {
+  transform: scale(1.02);
 }
 
 .homepage_text {
@@ -247,13 +251,17 @@ img {
   width: 60%;
   cursor: pointer;
   background: var(--blue);
-  color: #fff;
+  margin: 0 auto;
   border-radius: 4px;
   transition: all 0.3s ease-in-out;
 }
 
+.btn a {
+  color: #fff;
+}
+
 .btn:hover {
-  background: var(--light-blue);
+  transform: scale(1.1);
 }
 
 /* Grid */
@@ -500,6 +508,22 @@ footer {
     box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
     margin: 1rem;
     border-radius: 4px;
+  }
+
+  .grid:nth-of-type(2n - 1) {
+    grid-template-columns: 1fr;
+  }
+  
+  .grid:nth-of-type(2n) {
+    grid-template-columns: 1fr;
+  }
+
+  .grid:hover > .photo {
+    transform: scale(1.04);
+  }
+  
+  .grid:hover {
+    transform: scale(1.02);
   }
 
   .text,
