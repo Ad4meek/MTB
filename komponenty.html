@@ -4,30 +4,36 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/159c2751c2.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="icon" href="icon.png" />
-    <link rel="stylesheet" href="style.css" />
+
+    <link rel="icon" href="./img/icon.png" />
+    <link rel="stylesheet" href="./style/style.css" />
     <title>MTB | Komponenty</title>
   </head>
   <body>
     <!-- Navbar -->
 
     <header>
-      <div class="navbar">
-        <nav>
-          <ul>
-            <li><a href="index.html"> Domů</a></li>
-            <li><a href="kategorie.html">Kategorie</a></li>
-            <li><a href="bikeparky.html">Traily</a></li>
-            <li><a href="zavody.html">Závody</a></li>
-            <li><a href="vybaveni.html">Vybavení</a></li>
-            <li><a href="komponenty.html">Komponenty</a></li>
-          </ul>
-        </nav>
-      </div>
+      <nav>
+        <div class="logo_main">
+          <a href="./index.html"><img src="img/icon_white.png" alt="" /></a>
+        </div>
+        <div id="side_panel">
+          <div class="side_panel_in">
+            <ul>
+              <li><a href="./kategorie.html">Kategorie</a></li>
+              <li><a href="./traily.html">Traily</a></li>
+              <li><a href="./zavody.html">Závody</a></li>
+              <li><a href="./vybaveni.html">Vybavení</a></li>
+              <li><a href="./komponenty.html">Komponety</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="nav__menu" id="nav__menu">
+          <span class="nav__line"></span>
+          <span class="nav__line"></span>
+          <span class="nav__line"></span>
+        </div>
+      </nav>
     </header>
 
     <!-- Homepage-->
@@ -291,7 +297,7 @@
 
     <footer>
       <div class="footer">
-        <div>Adam Erben 2022&COPY;</div>
+        <div>Adam Erben 2023&COPY;</div>
         <ul>
           <li>
             <a href="https://www.instagram.com/_adam_erben_/">
@@ -311,5 +317,10 @@
         </ul>
       </div>
     </footer>
+    <script
+      src="https://kit.fontawesome.com/159c2751c2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>

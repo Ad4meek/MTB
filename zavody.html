@@ -4,30 +4,35 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/159c2751c2.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="icon" href="icon.png" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./img/icon.png" />
+    <link rel="stylesheet" href="./style/style.css" />
     <title>MTB | Závody</title>
   </head>
   <body>
     <!-- Navbar -->
 
     <header>
-      <div class="navbar">
-        <nav>
-          <ul>
-            <li><a href="index.html"> Domů</a></li>
-            <li><a href="kategorie.html">Kategorie</a></li>
-            <li><a href="bikeparky.html">Traily</a></li>
-            <li><a href="zavody.html">Závody</a></li>
-            <li><a href="vybaveni.html">Vybavení</a></li>
-            <li><a href="komponenty.html">Komponenty</a></li>
-          </ul>
-        </nav>
-      </div>
+      <nav>
+        <div class="logo_main">
+          <a href="./index.html"><img src="img/icon_white.png" alt="" /></a>
+        </div>
+        <div id="side_panel">
+          <div class="side_panel_in">
+            <ul>
+              <li><a href="./kategorie.html">Kategorie</a></li>
+              <li><a href="./traily.html">Traily</a></li>
+              <li><a href="./zavody.html">Závody</a></li>
+              <li><a href="./vybaveni.html">Vybavení</a></li>
+              <li><a href="./komponenty.html">Komponety</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="nav__menu" id="nav__menu">
+          <span class="nav__line"></span>
+          <span class="nav__line"></span>
+          <span class="nav__line"></span>
+        </div>
+      </nav>
     </header>
 
     <!-- Homepage-->
@@ -38,7 +43,7 @@
       <div class="grid">
         <div class="text">
           <h3>Downhill Závody</h3>
-          <br />
+
           Podstatou této disciplíny je co nejrychleji projet určenou trasu. Ta
           bývá 1,5 až 5 km dlouhá, většinou jen s přírodními, občas i s uměle
           vybudovanými překážkami. Celá trať je umístěna na svahu až s 12%
@@ -49,18 +54,18 @@
           některé úseky, které jezdci projíždějí na kolech, připadat jako
           neprojetelné.
         </div>
-        <div class="fotka">
+        <div class="photo">
           <img src="img/zavodydownhill.png" alt="" height="300px" />
         </div>
       </div>
 
       <div class="grid">
-        <div class="fotka">
+        <div class="photo">
           <img src="img/zavodyfreeride.png" alt="" height="300px" />
         </div>
         <div class="text">
           <h3>Freeride závody</h3>
-          <br />
+
           Freeride je disciplína, kde se jezdec snaží předvést efektivní jízdu s
           triky. Jezdec předvádí triky typu superman, seatgrab, no hands apod.
           Nejlepší freerideři v České republice jsou Richard Gasperotti, Michal
@@ -75,25 +80,25 @@
       <div class="grid">
         <div class="text">
           <h3>Enduro Závody</h3>
-          <br />
+
           Enduro závody obvykle probíhají během tří dnů, z nichž se dva dny
           trenuje a třetí den závodí. Do celkového času se započítavají měřené
           úseky (erzety). Erzety vedou dolů z kopce a mohou se na nich
           vyskytovat přírodní či umělé překážky. Na celý závod je časové omezení
           a narozdíl od downhillu jezdci nemůžou využívat lanovku.
         </div>
-        <div class="fotka">
+        <div class="photo">
           <img src="img/zavodyenduro.png" alt="" height="300px" />
         </div>
       </div>
 
       <div class="grid">
-        <div class="fotka">
+        <div class="photo">
           <img src="img/zavodyxc.png" alt="" height="300px" />
         </div>
         <div class="text">
           <h3>XC závody</h3>
-          <br />
+
           Narozdíl od downhillu nebo endura je cross country s hromadným startem
           a jezdci jedou trať na určitý počet kol. Délka jednoho kola se může
           lišit ale běžně bývá okolo 4 až 5 km. Trať obsahuje nějaké stupání,
@@ -108,27 +113,27 @@
       <div class="grid">
         <div class="text">
           <h3>Slopestyle závody</h3>
-          <br />Slopestyle, podobně jako freeride, je disciplína, kde jezdec
-          předvádí triky ve vzduchu. Od freeride se liší tím, že skoky jsou
-          většinou větší a více do výšky, aby jezdci měli ve vzduchu více času
-          na triky. Slopestyle se taky liší tím že se jede na hardtailu jenom s
-          předním odpružením.
+          Slopestyle, podobně jako freeride, je disciplína, kde jezdec předvádí
+          triky ve vzduchu. Od freeride se liší tím, že skoky jsou většinou
+          větší a více do výšky, aby jezdci měli ve vzduchu více času na triky.
+          Slopestyle se taky liší tím že se jede na hardtailu jenom s předním
+          odpružením.
         </div>
-        <div class="fotka">
+        <div class="photo">
           <img src="img/zavodyslopestyle.png" alt="" height="300px" />
         </div>
       </div>
 
       <div class="grid">
-        <div class="fotka">
+        <div class="photo">
           <img src="img/zavodytrial.png" alt="" height="300px" />
         </div>
         <div class="text">
           <h3>Trial závody</h3>
-          <br />Pomalé zdolávání umělých a přírodních překážek, kde sešlápnutí
-          nohy představuje trest v podobě přičtení času. Bývá okolo 4 až 6
-          krátkých technických tratí, které se na konci sečtou a připočítají se
-          trestné vteřiny za pád či sešlápnutí.
+          Pomalé zdolávání umělých a přírodních překážek, kde sešlápnutí nohy
+          představuje trest v podobě přičtení času. Bývá okolo 4 až 6 krátkých
+          technických tratí, které se na konci sečtou a připočítají se trestné
+          vteřiny za pád či sešlápnutí.
           <a href="https://youtu.be/wla7HPh9U9c?t=52"
             >Jak bliže vypadají trialové závody ukazuje Vašek Kolař.</a
           >
@@ -140,7 +145,7 @@
 
     <footer>
       <div class="footer">
-        <div>Adam Erben 2022&COPY;</div>
+        <div>Adam Erben 2023&COPY;</div>
         <ul>
           <li>
             <a href="https://www.instagram.com/_adam_erben_/">
@@ -160,5 +165,10 @@
         </ul>
       </div>
     </footer>
+    <script
+      src="https://kit.fontawesome.com/159c2751c2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
