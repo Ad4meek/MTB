@@ -245,20 +245,15 @@ img {
   padding: 0.5rem;
 }
 
-.btn a {
+.btn {
   font-size: 1.2rem;
   padding: 8px 35px;
-  width: 60%;
   cursor: pointer;
   background: var(--blue);
   margin: 0 auto;
   border-radius: 4px;
   transition: all 0.3s ease-in-out;
   color: #fff;
-}
-
-.btn {
-  transition: all 0.3s ease-in-out;
 }
 
 .btn:hover {
@@ -347,7 +342,28 @@ iframe {
   padding: 10px;
   object-fit: contain;
   object-position: center;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; 
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+}
+
+.modal-image {
+  max-width: 90%;
+  max-height: 90%;
+  z-index: 5;
+  object-fit: contain;
+  object-position: center;
 }
 
 .vybaveni img:hover {
@@ -437,7 +453,7 @@ footer {
   .grid:nth-of-type(2n - 1) {
     margin-right: 0;
   }
-  
+
   .grid:nth-of-type(2n) {
     margin-left: 0;
   }
@@ -445,14 +461,13 @@ footer {
   .grid:hover > .photo {
     transform: scale(1);
   }
-  
+
   .grid:hover {
     transform: scale(1);
   }
 }
 
 @media (max-width: 992px) {
-
   nav {
     padding: 0 3rem;
   }
@@ -536,7 +551,7 @@ footer {
     grid-template-columns: 1fr;
     margin: 0;
   }
-  
+
   .grid:nth-of-type(2n) {
     grid-template-columns: 1fr;
     margin: 0;
