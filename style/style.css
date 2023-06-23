@@ -343,6 +343,7 @@ iframe {
   object-fit: contain;
   object-position: center;
   transition: all 0.3s ease-in-out; 
+  cursor: Pointer;
 }
 
 .modal {
