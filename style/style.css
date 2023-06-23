@@ -441,9 +441,18 @@ footer {
   .grid:nth-of-type(2n) {
     margin-left: 0;
   }
+
+  .grid:hover > .photo {
+    transform: scale(1);
+  }
+  
+  .grid:hover {
+    transform: scale(1);
+  }
 }
 
 @media (max-width: 992px) {
+
   nav {
     padding: 0 3rem;
   }
@@ -525,18 +534,12 @@ footer {
 
   .grid:nth-of-type(2n - 1) {
     grid-template-columns: 1fr;
+    margin: 0;
   }
   
   .grid:nth-of-type(2n) {
     grid-template-columns: 1fr;
-  }
-
-  .grid:hover > .photo {
-    transform: scale(1.04);
-  }
-  
-  .grid:hover {
-    transform: scale(1.02);
+    margin: 0;
   }
 
   .text,
