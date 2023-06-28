@@ -272,12 +272,10 @@ img {
 
 .grid:nth-of-type(2n - 1) {
   grid-template-columns: 1fr 0.8fr;
-  margin-right: 6rem;
 }
 
 .grid:nth-of-type(2n) {
   grid-template-columns: 0.8fr 1fr;
-  margin-left: 6rem;
 }
 
 .grid:hover > .photo {
