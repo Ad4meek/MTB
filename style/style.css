@@ -13,7 +13,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
+} 
 
 html {
   scroll-behavior: smooth;
@@ -272,16 +272,10 @@ img {
 
 .grid:nth-of-type(2n - 1) {
   grid-template-columns: 1fr 0.8fr;
-  margin-right: 6rem;
 }
 
 .grid:nth-of-type(2n) {
   grid-template-columns: 0.8fr 1fr;
-  margin-left: 6rem;
-}
-
-.grid:hover > .photo {
-  transform: scale(1.07);
 }
 
 .grid:hover {
@@ -456,10 +450,6 @@ footer {
 
   .grid:nth-of-type(2n) {
     margin-left: 0;
-  }
-
-  .grid:hover > .photo {
-    transform: scale(1);
   }
 
   .grid:hover {
